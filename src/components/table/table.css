@@ -1,0 +1,33 @@
+.high, .normal,  .low{
+    padding: 7px 10px;
+    color: white;
+    border-radius: 1rem;
+    text-align: center;
+    width: 100px;
+}
+.high{
+    background-color: red;
+}
+.normal{
+    background-color: green;
+}
+.low{
+    background-color: yellow;
+    color: black;
+}
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.item{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.num{
+    text-decoration: none;
+}
